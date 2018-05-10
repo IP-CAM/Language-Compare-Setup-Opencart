@@ -1,0 +1,36 @@
+<?php
+$_['heading_title'] = 'Мега фільтр';
+$_['name_price'] = 'Ціна';
+$_['name_manufacturers'] = 'Виробник';
+$_['name_rating'] = 'Рейтинг';
+$_['name_search'] = 'Пошук';
+$_['name_stock_status'] = 'Наявність';
+$_['name_location'] = 'Місцезнаходження';
+$_['name_length'] = 'Довжина';
+$_['name_width'] = 'Ширина';
+$_['name_height'] = 'Висота';
+$_['name_weight'] = 'Вага';
+$_['name_mpn'] = 'MPN';
+$_['name_isbn'] = 'ISBN';
+$_['name_sku'] = 'SKU';
+$_['name_upc'] = 'UPC';
+$_['name_ean'] = 'EAN';
+$_['name_jan'] = 'JAN';
+$_['name_model'] = 'Код';
+$_['name_tags'] = 'Тег';
+$_['name_vehicle'] = 'Транспорт';
+$_['name_discounts'] = 'Знижка';
+$_['text_button_apply'] = 'Примінити';
+$_['text_reset_all'] = 'Скинути фільтр';
+$_['text_show_more'] = 'Показати більше (%s)';
+$_['text_show_less'] = 'Показати меньше';
+$_['text_display'] = 'Показати';
+$_['text_grid'] = 'Сітка';
+$_['text_list'] = 'Список';
+$_['text_loading'] = 'Завантаження...';
+$_['text_select'] = 'Вибір...';
+$_['text_go_to_top'] = 'Повернутися на верх';
+$_['text_init_filter'] = 'ФІЛЬТР ПО ТОВАРАХ';
+$_['text_initializing'] = 'Ініціалізація...';
+$_['text_select'] = '---';
+?>

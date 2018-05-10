@@ -1,0 +1,60 @@
+<?php
+// Text
+$_['text_hello'] = 'Вітаємо';
+$_['text_call'] = 'Телефонуйте';
+$_['text_not_call'] = 'Не уточнювати деталі за телефоном';
+$_['text_new_subject'] = '%s - Замовлення %s';
+$_['text_new_greeting'] = 'Дякуємо за Ваше замовлення в інтернет-магазині чоловічої косметики, бритв та аксесуарів <a href="https://barbercompany.com">barbercompany.com</a>. <br>Ваше замовлення отримане і надійшло в обробку.';
+$_['text_new_received'] = 'Ви отримали замовлення.';
+$_['text_new_link'] = 'Для перегляду Вашого замовлення перейдіть за посиланням:';
+$_['text_new_order_detail'] = 'Деталізація замовлення';
+$_['text_new_instruction'] = 'Коментар до замовлення';
+$_['text_new_order_id'] = '№ замовлення:';
+$_['text_new_date_added'] = 'Дата покупки:';
+$_['text_new_order_status'] = 'Статус замовлення:';
+$_['text_new_payment_method'] = 'Спосіб оплати:';
+$_['text_new_shipping_method'] = 'Спосіб доставки:';
+$_['text_new_email'] = 'E-mail:';
+$_['text_new_telephone'] = 'Телефон:';
+$_['text_new_ip'] = 'IP-адреса:';
+$_['text_new_payment_address'] = 'Адреса платника';
+$_['text_new_shipping_address'] = 'Адреса доставки';
+$_['text_new_products'] = 'Товари';
+$_['text_new_product'] = 'Товар';
+$_['text_new_model'] = 'Модель';
+$_['text_new_quantity'] = 'Кількість';
+$_['text_new_price'] = 'Ціна';
+$_['text_new_order_total'] = 'Замовлення разом:';
+$_['text_new_total'] = 'Разом';
+$_['text_new_download'] = 'Після підтвердження оплати, завантажувані товари будуть доступні за посиланням:';
+$_['text_new_comment'] = 'Коментар до Вашого замовлення:';
+$_['text_new_footer'] = '<br> ---- <br> Дякуємо за покупку у магазині "Компанія Традиційного Гоління".<br>Телефонуйте нам з понеділка по суботу з 09.00 до 19.00:<br>0-800-752-888<br>(044)353-2208<br>(032)253-2208<br>Або ж пишіть нам на пошту: shop@barbercompany.com';
+$_['text_update_subject'] = '%s - Оновлення замовлення %s';
+$_['text_update_order'] = '№ замовлення';
+$_['text_update_date_added'] = 'Дата замовлення:';
+$_['text_update_order_status'] = 'Ваш Замовлення оновлено з таким статусом:';
+$_['text_update_comment'] = 'Коментар до Вашого замовлення:';
+$_['text_update_link'] = 'Для перегляду замовлення перейдіть по посиланню нижче:';
+$_['text_update_footer'] = '<br> ---- <br> Дякуємо за покупку у магазині "Компанія Традиційного Гоління".<br>Телефонуйте нам з понеділка по суботу з 09.00 до 19.00:<br>0-800-752-888<br>(044)353-2208<br>(032)253-2208<br>Або ж пишіть нам на пошту: shop@barbercompany.com';
+
+
+$_['hub_text_heading']              = 'Ваше замовлення %s від %s ';
+$_['hub_text_action_new']           = 'отримане і надійшло в обробку!';
+$_['hub_text_action_send']          = 'відправлено';
+$_['hub_text_action_canceled']      = 'скасовано';
+$_['hub_text_action_delivered']     = 'виконано';
+$_['hub_text_action_delivered_info']= 'Дякуємо за довіру і покупки у нашому магазині. <br>Будемо вдячні за коментар-відгук про продукт. <br>Слідкуйте за новинками та акціями у нас на сайті або в соцмережах.';
+$_['hub_text_action_returned']      = 'поверено';
+$_['hub_text_subheading']           = 'Статус свого замовлення ви завжди зможете переглянути в приватному кабінеті.';
+$_['hub_text_my_orders']            = 'Мої замовлення';
+$_['hub_text_your_ttn_no']          = 'Ваш ТТН номер';
+$_['hub_text_order_no']             = '№ замовлення:';
+$_['hub_text_new_photo']            = 'Фото';
+$_['hub_text_new_product']          = 'Товар';
+$_['hub_text_new_quantity']         = 'Кількість';
+$_['hub_text_new_price']            = 'Ціна';
+$_['hub_text_new_order_total']      = 'Всього';
+$_['hub_text_new_total']            = 'Всього';
+
+$_['hub_text_update_footer']        = 'Дякуємо за покупку в магазині "Компанія Традиційного Гоління"';
+$_['hub_text_update_footer_2']      = 'Якщо у Вас виникли питання - телефонуйте нам з понеділка по суботу з 10.00 до 20.00.<br>0-800-752-888<br>(044)353-2208<br>(032)253-2208';
