@@ -152,7 +152,7 @@ class OpencartLanguageCompare {
 
         foreach ($data as $key => $value) {
 
-            $output .= '$_["' . $key . '"]          => "' . stripslashes($value) . '"'. "\n";
+            $output .= '$_["' . $key . '"]          => "' . stripslashes($value) . '"'. ";\n";
 
         }
 
