@@ -33,6 +33,7 @@ class OpencartLanguageCompare {
             if (is_file($this->translate_directory . '/' . $argv[1] . '.php')) {
                 rename($this->translate_directory . '/' . $argv[1]. '.php', $this->translate_directory . '/' . $argv[2]. '.php');
                 $this->doCompare();
+                rename($this->translate_directory . '/' . $argv[2]. '.php', $this->translate_directory . '/' . $argv[1]. '.php');
             } else {
                 echo "\nFile " . $this->translate_directory . '/' . $argv[1] . '.php' . " NOT FOUND:\n";
             }
@@ -150,10 +151,26 @@ class OpencartLanguageCompare {
 
         $output = '<?php' . "\n\n";
 
+        $max_spases = 8;
+        $tab_size = 4;
+
         foreach ($data as $key => $value) {
             
-            $output .= '$_["' . $key . '"]          = "' . stripslashes($value) . '"'. ";\n";
+            $array_key = '$_["' . $key . '"]';
 
+            $output .= $array_key;
+
+            $strlen = strlen($array_key);
+
+            $tab_count_for_current_row = (int) ceil((($max_spases * $tab_size) - $strlen) / $tab_size );
+
+            for ( $i = 0; $i <= $tab_count_for_current_row; $i++ ) {
+                $output .= "\t";
+            }
+
+            $output .= '= "' . addslashes($value) . '"'. ";\n";
+            
+            $i = 0;
         }
 
         return $output;
