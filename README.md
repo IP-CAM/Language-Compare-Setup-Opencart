@@ -1,21 +1,19 @@
 # Opencart Language Compare
-Сравнивает файлы языка CMS opencart и генерирует один смешанный файл
+Compares CMS opencart language files and generates one mixed file
 
 
-## Когда использовать:
-Если на ваш существующий интернет магазин на Opencart необходимо добавить языковой пакет.
-Сравнивает языковые массивы в файлах и на основании их создает языковой пакет, с частично переведенными строками.
-Остальные строки можно перевести в ручную, тем самым сэкономив свое время на добавлении перевода на сайт
+## When to use:
+If you need to add a language pack to your existing online store on Opencart.
+Compares language arrays in files and based on them creates a language pack, with partially translated strings.
+The rest of the lines can be translated manually, thereby saving your time on adding the translation to the site
 
-### Как использовать
-Скрип был написан и тестировался на версии php 7.1.2.
+### How to use
+The script was written and tested on php 7.1.2.
 
-Для запуска необходимо: 
-1) Поместить в папку original исходный языковой пакет (тот, который используется на сайте)
-2) Поместить в папку translate перевод. 
-3) Открыть консоль и выполнить следующую команду,
-4) После выполнения скрипта новые файлы будут находится в папке result
+To run you need:
+1) Place the original language pack in the original folder (the one used on the site)
+2) Place the translation in the translate folder.
+3) Open a console and run the following command,
+4) After the script is executed, the new files will be located in the result folder
 
-> php brain.php КОД_ЯЗЫКА_ПЕРЕВОДА КОД_ИСХОДНОГО_ЯЗЫКА
-
-
+> php brain.php TRANSLATION_Language_Code SOURCE_Language_Code 
